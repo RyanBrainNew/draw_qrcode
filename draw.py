@@ -92,7 +92,7 @@ def make_text_image(width, white, text, save_path, mode="rgb"):
     newImage.save(save_path);
 
 
-def resize_canvas(new_image_path="生成结果.jpg"):
+def resize_canvas(new_image_path="生成结果.png"):
     dir_path = os.path.dirname(os.path.abspath(__file__))
     print('当前目录绝对路径:', dir_path)
     org_image = input("Please input the org_image file with path")
